@@ -19,7 +19,7 @@ public class UserController {
 	
 	@Autowired
 	private UserService userService;
-	//今天真不错s
+	//今天真不错不么比的淡定
 	//用户通过localhost:8090/findAll获取用户数据
 	@RequestMapping("/findAll")
 	public String findAll(Model model) {
